@@ -200,6 +200,18 @@ main{
     width: 165px;
 }
 
+.footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #FFF4E7;
+  height: 100px;
+  width: 1440px;
+  margin-top: 150px;
+}
+
 
 
 
@@ -237,6 +249,9 @@ main{
 .facts-card-container{
    gap: 20px;
 }
+.footer{
+   width: 100%;
+}
 
 
 }
@@ -254,5 +269,6 @@ main{
   {
     flex-direction: column;
   }
+ 
  
 }
